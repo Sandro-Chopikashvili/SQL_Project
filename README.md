@@ -105,7 +105,7 @@ ORDER BY
     salary_year_avg DESC 
 ```
 
-![Top Paying Jobs + Skills](assets/top_paying_ds_jobs_skills.png)
+![Top Paying Jobs + Skills](assets\top_paying_ds_jobs_skills.png)
 
 ### 4. Top Paying Skills
 This query investigates which individual skills are linked to the highest-paying Data Science roles. It helps identify which technical competencies are most valuable in terms of salary potential.
@@ -157,4 +157,4 @@ ORDER BY
 LIMIT 25;
 ```
 
-![Optimal Skills](assets/top_remote_skills_data_scientist.png)
+![Optimal Skills](assets\top_remote_skills_data_scientist.png)
