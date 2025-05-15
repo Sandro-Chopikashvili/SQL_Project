@@ -46,7 +46,7 @@ ORDER BY
 LIMIT 10
 ```
 
-![Top Paying Roles](assets\top_10_highest_paying_roles.png)
+![Top Paying Roles](assets/top_10_highest_paying_roles.png)
 
 ### 2. Top Demanded Skills
 To uncover which skills are most in demand for Data Science roles, I analyzed job listings and counted how frequently each skill appeared. This query surfaces the most sought-after abilities in the field.
@@ -70,7 +70,7 @@ ORDER BY
     demand_count DESC
 LIMIT 5
 ```
-![Top Demanded Skills](assets\top_5_remote_ds_skills.png)
+![Top Demanded Skills](assets/top_5_remote_ds_skills.png)
 
 ### 3. Top Paying Jobs + Skills
 This query explores the intersection of high-paying roles and the skills they require. It identifies which skillsets are associated with top salaries, helping pinpoint valuable combinations for aspiring data professionals.
@@ -105,7 +105,7 @@ ORDER BY
     salary_year_avg DESC 
 ```
 
-![Top Paying Jobs + Skills](assets\top_paying_ds_jobs_skills.png)
+![Top Paying Jobs + Skills](assets/top_paying_ds_jobs_skills.png)
 
 ### 4. Top Paying Skills
 This query investigates which individual skills are linked to the highest-paying Data Science roles. It helps identify which technical competencies are most valuable in terms of salary potential.
@@ -129,7 +129,7 @@ ORDER BY
     avg_salary DESC
 LIMIT 25
 ```
-![Top Paying Skills](assets\top_25_skills_data_scientist_salary.png)
+![Top Paying Skills](assets/top_25_skills_data_scientist_salary.png)
 
 ### 5. Optimal Skills
 To find the best mix of demand and salary, I combined insights from both frequency and compensation. This query reveals the most strategically valuable skills—those that are both highly requested and well-paid.
@@ -157,4 +157,4 @@ ORDER BY
 LIMIT 25;
 ```
 
-![Optimal Skills](assets\top_remote_skills_data_scientist.png)
+![Optimal Skills](assets/top_remote_skills_data_scientist.png)
